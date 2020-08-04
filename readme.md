@@ -1,8 +1,15 @@
 # Front End Web Development 
-This document is intended to cover the aspects required to write front-end production code. Let me know what you think, if I've missed anything or represented anything incorrectly - happy to hear any feedback!
+This document is intended to cover the aspects required to write front-end production code. It generally follows the format of:
+````
+//section
+  //cheatsheet gist link
+    //githun repo example link
+````
+Let me know what you think, if I've missed anything or represented anything incorrectly - happy to hear any feedback!
 ​
+
 Contents: 
-- React 
+- React
 - Redux
 - Redux Middleware (saga / thunk)
 - TDD
@@ -24,7 +31,7 @@ Useful guides to know what is the current best languages and frameworks:
 - https://techradar.xero-support.com
 ​
 ---
-## React 
+## React
 React is the main frontend framework used at Xero. Using the JavaScript language, it can produce instantaneous changes in state in the browser for the user - without having to reload the page. It uses a concept of "components" which allow us to seperate out complex logic. 
 ​
 
