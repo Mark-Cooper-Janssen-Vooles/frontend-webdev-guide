@@ -14,8 +14,8 @@ Contents:
 - create-xero-app
 - Example of a basic app 
 - Getting a project set up
-​
-Ideally it would be best to start writing your react application with typescript, redux and TDD from the get-go. I.e. refactoring local component state into global redux state is a pain.
+
+#### Ideally it would be best to start writing your react application with typescript, redux and TDD from the get-go. I.e. refactoring local component state into global redux state is a pain.
 ​
 Useful guides to know what is the current best languages and frameworks:
 - https://www.thoughtworks.com/radar/languages-and-frameworks  
