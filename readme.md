@@ -1,12 +1,12 @@
 # Front End Web Development 
 This document is intended to cover the aspects required to write front-end production code. It generally follows the format of:
 ````
-//section
-  //cheatsheet gist link
-    //githun repo example link
+//contents section
+  //gist cheatsheet  link
+    //github repo example link
 ````
 Let me know what you think, if I've missed anything or represented anything incorrectly - happy to hear any feedback!
-​
+
 
 Contents: 
 - React
