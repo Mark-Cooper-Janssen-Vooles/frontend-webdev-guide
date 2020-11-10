@@ -9,18 +9,21 @@ Let me know what you think, if I've missed anything or represented anything inco
 
 
 Contents: 
-- React
-- Redux
-- Redux Middleware (saga / thunk)
-- TDD
-- Testing (jest / enzyme / react-testing-library)
-- Typescript 
-- Integration Testing 
-- XUI
-- Tooling
-- create-xero-app
-- Example of a basic app 
-- Getting a project set up
+- React :heavy_check_mark:
+- Redux :heavy_check_mark:
+- Redux Middleware (saga / thunk) :heavy_check_mark:
+- TDD :heavy_check_mark:
+- Testing (jest / enzyme / react-testing-library) :heavy_check_mark:
+- Typescript :heavy_check_mark:
+- Integration Testing :heavy_check_mark:
+- XUI :heavy_check_mark:
+- Tooling :x:
+- create-xero-app :heavy_check_mark:
+- Example of a basic app :heavy_check_mark:
+- Getting a project set up :heavy_check_mark:
+
+
+More contents ideas: https://github.com/kamranahmedse/developer-roadmap
 
 
 Ideally it would be best to start writing your react application with typescript, redux and TDD from the get-go. I.e. refactoring local component state into global redux state is a pain.
