@@ -9,21 +9,17 @@ Let me know what you think, if I've missed anything or represented anything inco
 
 
 Contents: 
-- React :heavy_check_mark:
-- Redux :heavy_check_mark:
-- Redux Middleware (saga / thunk) :heavy_check_mark:
-- TDD :heavy_check_mark:
-- Testing (jest / enzyme / react-testing-library) :heavy_check_mark:
-- Typescript :heavy_check_mark:
-- Integration Testing :heavy_check_mark:
-- XUI :heavy_check_mark:
-- Tooling :x:
-- create-xero-app :heavy_check_mark:
-- Example of a basic app :heavy_check_mark:
-- Getting a project set up :heavy_check_mark:
-
-
-More contents ideas: https://github.com/kamranahmedse/developer-roadmap
+- React
+- Redux
+- Redux Middleware (saga / thunk)
+- TDD
+- Testing (jest / enzyme / react-testing-library)
+- Typescript
+- Integration Testing 
+- XUI
+- create-xero-app
+- Example of a basic app
+- Getting a project set up
 
 
 Ideally it would be best to start writing your react application with typescript, redux and TDD from the get-go. I.e. refactoring local component state into global redux state is a pain.
@@ -113,6 +109,8 @@ When writing unit tests, plan things out as to what type of tests you can forese
 ​
 
 Use the arrange, act, assert style. 
+
+When making a failing test pass, commit. You can then refactor if you feel, and commit again. More commits are better.
 ​
 ---
 ## Testing - Jest / Enzyme / React-testing-library
@@ -217,7 +215,7 @@ npm, eslint babel, prettier, webpack
 
 ---
 ## Example of a basic app
-This app was created using the above principles this:
+This app was created using the above principles:
 - https://github.dev.xero.com/mark-janssen-vooles/quote-app-frontend
 ​
 
