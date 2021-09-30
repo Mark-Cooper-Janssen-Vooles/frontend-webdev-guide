@@ -9,6 +9,7 @@ Let me know what you think, if I've missed anything or represented anything inco
 
 
 Contents: 
+- NPM
 - React
 - Redux
 - Redux Middleware (saga / thunk)
@@ -29,6 +30,15 @@ Useful guides to know what is the current best languages and frameworks:
 - https://www.thoughtworks.com/radar/languages-and-frameworks  
 - https://techradar.xero-support.com
 ​
+
+---
+## NPM
+NPM stands for node package manager and it is a package manage for the JavaScript programming language - the default package manager for the JS runtime environment for node.js.
+
+Notes on understanding NPM can be found here: 
+- https://github.com/Mark-Cooper-Janssen-Vooles/understanding_npm
+
+
 ---
 ## React
 React is the main frontend framework used at Xero. Using the JavaScript language, it can produce instantaneous changes in state in the browser for the user - without having to reload the page. It uses a concept of "components" which allow us to seperate out complex logic. 
