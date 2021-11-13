@@ -229,13 +229,7 @@ create-xero-app is essentially Xero's own version of create-react-app. The repo 
 
 Right now the version in the repo instructions is broken, but the latest version works: 
 To get the latest version in the master branch, run ``npx git+https://github.dev.xero.com/Xero/create-xero-app <project-name>``, otherwise follow instructions in the repos readme.
-​
 
----
-## Tooling
-//todo still! 
-npm, eslint babel, prettier, webpack
-​
 
 ---
 ## Example of a basic app
