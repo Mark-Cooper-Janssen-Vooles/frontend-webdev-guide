@@ -13,6 +13,7 @@ Most recently updated UI project: https://github.com/Mark-Cooper-Janssen-Vooles/
 
 Contents: 
 - NPM
+- Webpack
 - React
 - Redux
 - Redux Middleware (saga / thunk)
@@ -40,6 +41,16 @@ NPM stands for node package manager and it is a package manage for the JavaScrip
 
 Notes on understanding NPM can be found here: 
 - https://github.com/Mark-Cooper-Janssen-Vooles/understanding_npm
+
+
+---
+## Webpack
+Webpack is a static module bundler for javascript applications. It bundles your code together.
+- When using webpack, you'll most likely only have one js file and maybe one cs file. no hidden dependencies, and no need to worry about the order of the js files in the html doc anymore. 
+- Webpack manages all of your code in one place 
+
+Notes on understanding NPM can be found here: 
+- https://github.com/Mark-Cooper-Janssen-Vooles/webpack_learnings
 
 
 ---
