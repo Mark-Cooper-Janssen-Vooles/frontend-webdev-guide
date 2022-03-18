@@ -214,7 +214,7 @@ This app was created using the above principles:
 ---
 ## Getting a project set up 
 Get the basic app set up:
-- ``npx git+https://github.dev.xero.com/Xero/create-xero-app <project-name>``
+- ``npx create-react-app <project-name>``
 ​
 
 Add typescript: 
