@@ -21,8 +21,6 @@ Contents:
 - Testing (jest / enzyme / react-testing-library)
 - Typescript
 - Integration Testing 
-- XUI
-- create-xero-app
 - Example of a basic app
 - Getting a project set up
 
@@ -32,7 +30,6 @@ Ideally it would be best to start writing your react application with typescript
 
 Useful guides to know what is the current best languages and frameworks:
 - https://www.thoughtworks.com/radar/languages-and-frameworks  
-- https://techradar.xero-support.com
 ​
 
 ---
@@ -207,29 +204,6 @@ Nightwatch:
 Cypress:
 - https://www.cypress.io/
 ​
----
-## XUI
-XUI is the CSS framework that xero uses. It has two main sections, normal CSS XUI and react component XUI. When creating a new xero page or component, you need to check the XUI version found in the package.json and make sure the documentation you are viewing matches with that one. 
-​
-
-Generally the process will be an import at the top of the react file, followed by the use of the imported component in the JSX being rendered. Each react xui component will be different and accept different props to be passed in - you need to follow the docs closely. 
-​
-
-To style or arrange the page, you can just the normal CSS XUI to apply styles to the className. This would include things like XUI flex. Sometimes the documentation is not straight forward, for example when you want to make something into a flexbox with children space-between, you need to use both xui-u-flex AND xui-u-flex-justify-space-between, i.e: ``className="xui-u-flex xui-u-flex-justify-space-between"``. It may require some fiddling.
-- https://xui.xero.com/16.5.0/section-fundamentals-utilities.html#fundamentals-utilities-1
-​
-
-The documentation for normal CSS XUI can be found at https://xui.xero.com, and for react XUI https://xui.xero.com/16.5.0/react/
-​
-
----
-## create-xero-app
-create-xero-app is essentially Xero's own version of create-react-app. The repo lives here: https://github.dev.xero.com/Xero/create-xero-app
-
-
-Right now the version in the repo instructions is broken, but the latest version works: 
-To get the latest version in the master branch, run ``npx git+https://github.dev.xero.com/Xero/create-xero-app <project-name>``, otherwise follow instructions in the repos readme.
-
 
 ---
 ## Example of a basic app
