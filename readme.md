@@ -2,10 +2,9 @@
 This document is intended to cover the aspects required to write front-end production code. It generally follows the format of:
 ````
 //contents section
-  //gist cheatsheet  link
+  //gist cheatsheet link
     //github repo example link
 ````
-Let me know what you think, if I've missed anything or represented anything incorrectly - happy to hear any feedback!
 
 
 Most recently updated UI project: https://github.com/Mark-Cooper-Janssen-Vooles/quoteApp.UI
@@ -16,7 +15,8 @@ Contents:
 - Webpack
 - React
 - Redux
-- Redux Middleware (saga / thunk)
+- Redux Middleware (redux sagas / thunk)
+- GraphQL
 - TDD
 - Testing (jest / enzyme / react-testing-library)
 - Typescript
@@ -73,6 +73,7 @@ An example of using a react class component vs a functional component:
 React documentation can be found here:
 - https://reactjs.org/docs/getting-started.html
 ​
+
 ---
 ## Redux 
 When a react application gets complex, changes in state are best managed by Redux (a global state, avoids having to noodle state through components).
@@ -87,6 +88,7 @@ Redux cheatsheet:
 Redux documentation can be found here:
 - https://redux.js.org/introduction/getting-started
 ​
+
 ---
 ## Redux Middleware 
 Redux middleware is used for async calls to a backend, and allows actions to return a function after a promise has been resolved.
@@ -107,6 +109,24 @@ And 'redux-saga' better for larger applications, with a redux saga cheatsheet:
 Redux-saga:
 - https://redux-saga.js.org/
 ​
+
+---
+## GraphQL 
+Before there was GraphQL, there was REST.
+
+In recent years, REST has become the dominant API style for building backend web services. With REST, you could signal the type of request we want to make (ex: GET, POST, PUT, or DELETE) and the resource we’d like to fetch or interact with (ex: /api/pets/1) using an HTTP method and a URL.
+
+GraphQL lets you ask for what you want in a single query, saving bandwidth and reducing waterfall requests. It also enables clients to request their own unique data specifications. GraphQL is developed by Facebook.
+
+Website: 
+- https://graphql.org/
+
+Notes on understanding GraphQL can be found here: 
+- https://github.com/Mark-Cooper-Janssen-Vooles/understanding_graphql
+
+Condensed Gist notes: 
+- https://gist.github.com/Mark-Cooper-Janssen-Vooles/bb8b348c7e53b6783caa39ccf67cc6f0
+
 ---
 ## TDD - Test Driven Development 
 TDD is only for unit tests.
@@ -166,6 +186,7 @@ React testing library:
 - https://testing-library.com/docs/react-testing-library/intro
 - Good blog post: https://www.robinwieruch.de/react-testing-library
 ​
+
 ---
 ## Typescript
 Typescript simply adds types to JavaScript, making the code less likely to break and pointing out potential bugs before they occur. Its use is increasingly more popular in production code. 
@@ -179,6 +200,7 @@ Typescript cheatsheet:
 Typescript:
 - https://www.typescriptlang.org/docs/home
 ​
+
 ---
 ## Integration Testing 
 Frameworks used for integration testing include Nightwatch and Cypress. Currently cypress is rated the gold standard, but there are many integration tests using Nightwatch. 
@@ -208,7 +230,7 @@ Cypress:
 ---
 ## Example of a basic app
 This app was created using the above principles:
-- https://github.dev.xero.com/mark-janssen-vooles/quote-app-frontend
+- https://github.com/Mark-Cooper-Janssen-Vooles/quoteApp.UI
 ​
 
 ---
