@@ -13,6 +13,7 @@ Most recently updated UI project: https://github.com/Mark-Cooper-Janssen-Vooles/
 Contents: 
 - NPM
 - Webpack
+- Accessibility
 - React
 - Redux
 - Redux Middleware (redux sagas / thunk)
@@ -48,6 +49,16 @@ Webpack is a static module bundler for javascript applications. It bundles your 
 
 Notes on understanding NPM can be found here: 
 - https://github.com/Mark-Cooper-Janssen-Vooles/webpack_learnings
+
+
+---
+## Accessibility
+Accessibility (often abbreviated to A11y) means enabling as many people as possible to use Web sites, even when those people's abilities are limited in some way.
+
+https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+Notes on understanding accessibility can be found here: 
+- https://github.com/Mark-Cooper-Janssen-Vooles/accessibility-info 
 
 
 ---
