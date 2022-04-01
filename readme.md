@@ -17,11 +17,11 @@ Contents:
 - [React](#react)
 - [Redux](#redux)
 - [Redux Middleware (redux sagas / thunk)](#redux-middleware)
-- [GraphQL](#graphql)
 - [TDD](#tdd---test-driven-development)
 - [Testing (jest / enzyme / react-testing-library)](#testing---jest--enzyme--react-testing-library)
 - [Typescript](#typescript)
 - [Integration Testing](#integration-testing)
+- [GraphQL](#graphql)
 - [Example of a basic app](#example-of-a-basic-app)
 - [Getting a project set up](#getting-a-project-set-up)
 
@@ -120,23 +120,6 @@ And 'redux-saga' better for larger applications, with a redux saga cheatsheet:
 Redux-saga:
 - https://redux-saga.js.org/
 ​
-
----
-## GraphQL 
-Before there was GraphQL, there was REST.
-
-In recent years, REST has become the dominant API style for building backend web services. With REST, you could signal the type of request we want to make (ex: GET, POST, PUT, or DELETE) and the resource we’d like to fetch or interact with (ex: /api/pets/1) using an HTTP method and a URL.
-
-GraphQL lets you ask for what you want in a single query, saving bandwidth and reducing waterfall requests. It also enables clients to request their own unique data specifications. GraphQL is developed by Facebook.
-
-Website: 
-- https://graphql.org/
-
-Notes on understanding GraphQL can be found here: 
-- https://github.com/Mark-Cooper-Janssen-Vooles/understanding_graphql
-
-Condensed Gist notes: 
-- https://gist.github.com/Mark-Cooper-Janssen-Vooles/bb8b348c7e53b6783caa39ccf67cc6f0
 
 ---
 ## TDD - Test Driven Development 
@@ -239,8 +222,25 @@ Cypress:
 ​
 
 ---
+## GraphQL 
+Before there was GraphQL, there was REST.
+
+In recent years, REST has become the dominant API style for building backend web services. With REST, you could signal the type of request we want to make (ex: GET, POST, PUT, or DELETE) and the resource we’d like to fetch or interact with (ex: /api/pets/1) using an HTTP method and a URL.
+
+GraphQL lets you ask for what you want in a single query, saving bandwidth and reducing waterfall requests. It also enables clients to request their own unique data specifications. GraphQL is developed by Facebook.
+
+Website: 
+- https://graphql.org/
+
+Notes on understanding GraphQL can be found here: 
+- https://github.com/Mark-Cooper-Janssen-Vooles/understanding_graphql
+
+Condensed Gist notes: 
+- https://gist.github.com/Mark-Cooper-Janssen-Vooles/bb8b348c7e53b6783caa39ccf67cc6f0
+
+
+---
 ## Example of a basic app
-This app was created using the above principles:
 - https://github.com/Mark-Cooper-Janssen-Vooles/quoteApp.UI
 ​
 
