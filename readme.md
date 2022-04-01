@@ -26,11 +26,15 @@ Contents:
 - [Getting a project set up](#getting-a-project-set-up)
 
 
-Ideally it would be best to start writing your react application with typescript, redux and TDD from the get-go. I.e. refactoring local component state into global redux state is a pain.
+Ideally it would be best to start writing your react application with typescript, redux and TDD from the get-go.
 ​
 
-Useful guides to know what is the current best languages and frameworks:
+Useful guides to know which are the current best languages and frameworks, a collection of tech radars:
+- https://kotahi.xero.dev/technology
 - https://www.thoughtworks.com/radar/languages-and-frameworks  
+- https://www.galaxus.ch/techradar/ 
+- https://opensource.zalando.com/tech-radar/
+- https://radar.tinkoff.ru/frontend 
 ​
 
 ---
