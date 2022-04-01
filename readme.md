@@ -12,18 +12,18 @@ Most recently updated UI project: https://github.com/Mark-Cooper-Janssen-Vooles/
 
 Contents: 
 - [NPM](#NPM)
-- Webpack
-- Accessibility
-- React
-- Redux
-- Redux Middleware (redux sagas / thunk)
-- GraphQL
-- TDD
-- Testing (jest / enzyme / react-testing-library)
-- Typescript
-- Integration Testing 
-- Example of a basic app
-- Getting a project set up
+- [Webpack](#webpack)
+- [Accessibility](#accessibility)
+- [React](#react)
+- [Redux](#redux)
+- [Redux Middleware (redux sagas / thunk)](#redux-middleware)
+- [GraphQL](#graphql)
+- [TDD](#tdd---test-driven-development)
+- [Testing (jest / enzyme / react-testing-library)](#testing---jest--enzyme--react-testing-library)
+- [Typescript](#typescript)
+- [Integration Testing](#integration-testing)
+- [Example of a basic app](#example-of-a-basic-app)
+- [Getting a project set up](#getting-a-project-set-up)
 
 
 Ideally it would be best to start writing your react application with typescript, redux and TDD from the get-go. I.e. refactoring local component state into global redux state is a pain.
