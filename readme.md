@@ -193,6 +193,8 @@ Similar to TDD, it may slow productivity but makes the code more robust.
 Typescript cheatsheet: 
 - https://gist.github.com/Mark-Cooper-Janssen-Vooles/c15fc13119c484731daa650ef5e48d58
 ​
+Notes on typescript with a React + Redux application: 
+- https://github.com/Mark-Cooper-Janssen-Vooles/typescript-devs-guide#reactredux--typescript
 
 Typescript:
 - https://www.typescriptlang.org/docs/home
