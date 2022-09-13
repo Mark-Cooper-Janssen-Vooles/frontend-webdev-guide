@@ -21,6 +21,7 @@ Contents:
 - [Typescript](#typescript)
 - [Integration Testing](#integration-testing)
 - [GraphQL](#graphql)
+- [Threejs](#threejs)
 - [Example of a basic app](#example-of-a-basic-app)
 - [Getting a project set up](#getting-a-project-set-up)
 
@@ -245,6 +246,14 @@ Notes on understanding GraphQL can be found here:
 Condensed Gist notes: 
 - https://gist.github.com/Mark-Cooper-Janssen-Vooles/bb8b348c7e53b6783caa39ccf67cc6f0
 
+
+---
+## Threejs
+
+Three.js is a 3D JS library that enables devs to create 3D experiences for the web. It works with WebGL, but you can make it work with SVG and CSS but those two are limited.
+
+Notes on threejs:
+- https://github.com/Mark-Cooper-Janssen-Vooles/threejs
 
 ---
 ## Example of a basic app
