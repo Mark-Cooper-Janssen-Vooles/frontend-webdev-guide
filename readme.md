@@ -10,6 +10,7 @@ Most recently updated UI project: https://github.com/Mark-Cooper-Janssen-Vooles/
 
 
 Contents: 
+- [Javascript](#javascript)
 - [NPM](#NPM)
 - [Webpack](#webpack)
 - [Accessibility](#accessibility)
@@ -36,6 +37,14 @@ Useful guides to know which are the current best languages and frameworks, a col
 - https://opensource.zalando.com/tech-radar/
 - https://radar.tinkoff.ru/frontend 
 ​
+
+---
+## JavaScript
+JavaScript is one of the core technologies of the World Wide Web, alongside HTML and CSS. In 2022, 98% of websites use Javascript on the clientside for webpage behavior. 
+
+Notes on understanding javascript fundamentals can be found here: 
+- https://github.com/Mark-Cooper-Janssen-Vooles/javascript
+
 
 ---
 ## NPM
