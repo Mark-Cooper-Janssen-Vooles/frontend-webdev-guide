@@ -6,17 +6,14 @@ This document is intended to cover the aspects required to write front-end produ
     //github repo example link
 ````
 
-Most recently updated UI project: https://github.com/Mark-Cooper-Janssen-Vooles/quoteApp.UI
-
-
 Contents: 
-- [Javascript](#javascript)
+- [JavaScript and General knowledge of frontend](#javascript-and-general-knowledge-of-frontend)
 - [NPM](#NPM)
 - [Webpack](#webpack)
 - [Accessibility](#accessibility)
 - [React](#react)
 - [Redux](#redux)
-- [Redux Middleware (redux sagas / thunk)](#redux-middleware)
+- [Redux Middleware (redux sagas / thunk) - Depreciated*](#redux-middleware)
 - [TDD](#tdd---test-driven-development)
 - [Testing (jest / enzyme / react-testing-library)](#testing---jest--enzyme--react-testing-library)
 - [Typescript](#typescript)
@@ -39,10 +36,10 @@ Useful guides to know which are the current best languages and frameworks, a col
 ​
 
 ---
-## JavaScript
+## JavaScript and Frontend Fundamentals
 JavaScript is one of the core technologies of the World Wide Web, alongside HTML and CSS. In 2022, 98% of websites use Javascript on the clientside for webpage behavior. 
 
-Notes on understanding javascript fundamentals can be found here: 
+Notes on understanding JavaScript and frontend fundamentals can be found here: 
 - https://github.com/Mark-Cooper-Janssen-Vooles/javascript
 
 
@@ -115,6 +112,9 @@ Redux documentation can be found here:
 
 ---
 ## Redux Middleware 
+
+NOTE: Redux-sagas is now depreciated. A 3rd party middleware is not recommended in most cases unless you have complexity. See [here.](https://stackoverflow.com/questions/72360331/is-it-worth-using-redux-saga-in-the-long-term?rq=1#:~:text=Redux%2DSaga%2C%20a%20Redux%20side,and%20no%20longer%20being%20maintained.)
+
 Redux middleware is used for async calls to a backend, and allows actions to return a function after a promise has been resolved.
 ​
 
