@@ -41,6 +41,7 @@ JavaScript is one of the core technologies of the World Wide Web, alongside HTML
 
 Notes on understanding JavaScript and frontend fundamentals can be found here: 
 - https://github.com/Mark-Cooper-Janssen-Vooles/javascript
+- more advanced info is here: https://github.com/Mark-Cooper-Janssen-Vooles/advanced-javascript-concepts
 
 
 ---
