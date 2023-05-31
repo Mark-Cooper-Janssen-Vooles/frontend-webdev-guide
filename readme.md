@@ -109,6 +109,20 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility
 
 Notes on understanding accessibility can be found here: 
 - https://github.com/Mark-Cooper-Janssen-Vooles/accessibility-info 
+- Some basics to cover:
+  - Browse your website using only keyboard. Tab and Shift + Tab to navigate forwards and backwards, arrow keys to move between options and enter and space to activiate things 
+    - Can you interact with every element on the page?
+    - Can you see where you are on the page? Look for a visible :focus indicator as you navigate.
+    - Can you use functionality (like tooltips) that you usually see on :hover?
+    - buttons, links, and form elements get focus automagically. If something's not getting focus, check if it's a div or a span. Check if you can use a different, more semantically appropriate, element.
+    - any issues here are critical severity
+  - Headings - screen readers use these to navigate around a page
+    - Install the Headings [Accessibility Bookmarklet](https://accessibility-bookmarklets.org/install.html) and activate it on your page.
+    - Is everything that looks like a heading marked up as a heading?
+    - Are the headings nested correctly?
+    - Problems here are high severity
+  - axe DevTools - it's great at picking up any big accessibility problems (such as form controls missing labels).
+    - Install and run [axe Devtools](https://www.deque.com/axe/browser-extensions/) on your page
 
 
 ---
