@@ -10,6 +10,7 @@ Contents:
 - [JavaScript and General knowledge of frontend](#javascript-and-general-knowledge-of-frontend)
 - [Typescript](#typescript)
 - [Debugging](#debugging)
+- [Devtools and overriding requests](#devtools-and-overriding-requests)
 - [React](#react)
 - [Redux](#redux)
 - [Redux Middleware (redux sagas / thunk) - Depreciated*](#redux-middleware)
@@ -50,6 +51,36 @@ Notes on understanding JavaScript and frontend fundamentals can be found here:
 Debugging in JS can be accomplished by two main ways:
 1. Using a `console.log()` to log something to the console, which can be accessed in the dev tools of browsers
 2. Using the `debugger` keyword, which will open up the dev tools and pause the code at that point. It can then be navigated from there
+
+
+---
+## Devtools and overriding requests
+It is recommended to use chrome when developing. Right click a page and click inspect, it will open the dev tools. It will show multiple tabs:
+- Elements
+  - This tab shows the html elements along with styling and content
+    - the sub tab "styles" allows you to see what styles are applied to the selected element and where they are coming from
+    - the sub tab "computed" shows the overall affect of styles on the element
+    - the sub-tab "accessibility" shows some information on accessibility
+- Console
+  - this tab is frequently used and shows any errors that may be happening
+  - any `console.log()` statements from your app will appear here
+  - there are various options to check or uncheck here, such as 'preserve log' which will allow you to compare logs on reload 
+- Sources
+  - this tab shows you where content is loaded from - i.e the javascript files
+  - this is also where the `debugger` will take you to point to the code 
+  - you will need to use this to find certain .js files that you wish to override with your local
+    - you can use extensions such as `resource override` or `requestly` in chrome to set this up
+      - i.e. if your production environment is a URL from `https://www.example.com/business/prod/something/1.2.5/app.js` you can set this to redirect to instead use your local `http://localhost:8080/app.js` to see how your local frontend would work in the prod environment. 
+- Network
+  - this tab allows you to see network requests for the page you've loaded 
+  - it has multiple ways to filter requests, including a searchbar and checkboxes for specific file types (js, css, etc)
+  - it also enables you to see the waterfall - what is taking the most time, what is being done async etc 
+- Performance 
+  - this tab lets you check the web vitals among other things 
+- Application
+  - this is where things like cookies or local storage is stored temporarily. You can manually delete or add things here 
+- Other tabs 
+  - You can download extensions and add them here if you wish also - a popular and useful one is Redux for example 
 
 
 ---
