@@ -8,15 +8,16 @@ This document is intended to cover the aspects required to write front-end produ
 
 Contents: 
 - [JavaScript and General knowledge of frontend](#javascript-and-general-knowledge-of-frontend)
-- [NPM](#NPM)
-- [Webpack](#webpack)
-- [Accessibility](#accessibility)
+- [Typescript](#typescript)
+- [Debugging](#debugging)
 - [React](#react)
 - [Redux](#redux)
 - [Redux Middleware (redux sagas / thunk) - Depreciated*](#redux-middleware)
+- [NPM](#NPM)
+- [Webpack](#webpack)
+- [Accessibility](#accessibility)
 - [TDD](#tdd---test-driven-development)
 - [Testing (jest / enzyme / react-testing-library)](#testing---jest--enzyme--react-testing-library)
-- [Typescript](#typescript)
 - [Integration Testing](#integration-testing)
 - [GraphQL](#graphql)
 - [Threejs](#threejs)
@@ -42,6 +43,13 @@ JavaScript is one of the core technologies of the World Wide Web, alongside HTML
 Notes on understanding JavaScript and frontend fundamentals can be found here: 
 - https://github.com/Mark-Cooper-Janssen-Vooles/javascript
 - more advanced info is here: https://github.com/Mark-Cooper-Janssen-Vooles/advanced-javascript-concepts
+
+
+---
+## Debugging 
+Debugging in JS can be accomplished by two main ways:
+1. Using a `console.log()` to log something to the console, which can be accessed in the dev tools of browsers
+2. Using the `debugger` keyword, which will open up the dev tools and pause the code at that point. It can then be navigated from there
 
 
 ---
