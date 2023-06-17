@@ -8,6 +8,7 @@ This document is intended to cover the aspects required to write front-end produ
 
 Contents: 
 - [JavaScript and General knowledge of frontend](#javascript-and-general-knowledge-of-frontend)
+- [Algorithms and Data Structures](#algorithms-and-data-structures)
 - [Typescript](#typescript)
 - [Debugging](#debugging)
 - [Devtools and overriding requests](#devtools-and-overriding-requests)
@@ -45,6 +46,13 @@ Notes on understanding JavaScript and frontend fundamentals can be found here:
 - https://github.com/Mark-Cooper-Janssen-Vooles/javascript
 - more advanced info is here: https://github.com/Mark-Cooper-Janssen-Vooles/advanced-javascript-concepts
 
+
+---
+## Algorithms and data structures
+As seen through the lense of "Big O" notation, these are important to know - as our apps scale the efficiency of the code matters more. Algorithms are also important to know to solve more complex problems and logic. 
+
+- Practice algorithm questions and knowledge here: https://leetcode.com/
+- Notes on algorithms and data structures: https://github.com/Mark-Cooper-Janssen-Vooles/js-algorithms-data-structures 
 
 ---
 ## Debugging 
