@@ -21,6 +21,7 @@ Contents:
 - [TDD](#tdd---test-driven-development)
 - [Testing (jest / enzyme / react-testing-library)](#testing---jest--enzyme--react-testing-library)
 - [Integration Testing](#integration-testing)
+- [Web Performance Optimisation](#web-performance-optimisation)
 - [GraphQL](#graphql)
 - [Threejs](#threejs)
 - [Example of a basic app](#example-of-a-basic-app)
@@ -299,6 +300,13 @@ Nightwatch:
 Cypress:
 - https://www.cypress.io/
 ​
+
+---
+## Web Performance Optimisation
+Web performance optimization, or website optimization is the field of knowledge about increasing the speed in which web pages are downloaded and displayed on the user's web browser. 
+
+Notes on understanding performance in frontend development:
+- https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation
 
 ---
 ## GraphQL 
