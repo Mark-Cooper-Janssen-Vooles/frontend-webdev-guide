@@ -26,6 +26,7 @@ Contents:
 - [Threejs](#threejs)
 - [Example of a basic app](#example-of-a-basic-app)
 - [Getting a project set up](#getting-a-project-set-up)
+- [Notes on an overall quality frontend website](#notes-on-an-overall-quality-frontend-website)
 
 
 Ideally it would be best to start writing your react application with typescript, redux and TDD from the get-go.
@@ -113,6 +114,9 @@ Notes on understanding NPM can be found here:
 ---
 ## Accessibility
 Accessibility (often abbreviated to A11y) means enabling as many people as possible to use Web sites, even when those people's abilities are limited in some way.
+- It is possible to get some in-built functionality from 'React Aria': https://react-spectrum.adobe.com/react-aria/
+- Certain components prove more difficult than others to make fully accessibile. Check out this for tips: https://www.w3.org/WAI/ARIA/apg/patterns/
+
 
 https://developer.mozilla.org/en-US/docs/Web/Accessibility
 
@@ -374,3 +378,17 @@ E.g. get the READ working out of CRUD first.
 - Use Typescript!
 - Write tests as you go, or at least make sure every .ts file has corresponding tests 
 - Make sure the whole thing is working, style it, then move onto CREATE, etc. 
+
+---
+
+## Notes on an overall quality frontend website
+There are some things to ask yourself when building quality front end projects. 
+- Are you using a well-established library if you have advanced requirements?
+  - An example would be React. 
+  - Also important is how you've implemented this - building it from scratch can lead to much smaller file sizes than using something like `npx create-react-app`
+- Are you implementing typescript for typesafety? 
+- Does your pipeline allow you release with confidence? Best practice would be to create scripts for the following to run in the pipeline.
+  - Do you have 100% unit test code coverage? (i.e. jest + react testing library)
+  - Do you have a few select happy path E2E tests? (i.e. playwright)
+  - Do you have optimisation techniques to ensure you don't make the performance worse?
+  - Have you considered accessibility and baked it into the project as much as possible (axe unit testing, running audits, manually checking keyboard functionality)
