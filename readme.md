@@ -310,10 +310,10 @@ Cypress:
 Web performance optimization, or website optimization is the field of knowledge about increasing the speed in which web pages are downloaded and displayed on the user's web browser. 
 
 Notes on understanding performance in frontend development:
-- https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation
-- [Loading Performance (loading assets)](https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation/blob/master/building-faster-websites.md)
-- [Rendering performance (CSS/ js)](https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation/blob/master/CSS-website-performance.md) 
-- [React Specific Performance](https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation/blob/master/React-performance-optimisation.md)
+- [Overview](https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation)
+  - [Loading Performance (loading assets)](https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation/blob/master/building-faster-websites.md)
+  - [Rendering performance (CSS/ js)](https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation/blob/master/CSS-website-performance.md) 
+  - [React Specific Performance](https://github.com/Mark-Cooper-Janssen-Vooles/websiteOptimisation/blob/master/React-performance-optimisation.md)
 
 ---
 ## GraphQL 
