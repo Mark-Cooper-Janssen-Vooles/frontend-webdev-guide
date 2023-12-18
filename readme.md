@@ -17,6 +17,7 @@ Contents:
 - [Redux Middleware (redux sagas / thunk) - Depreciated*](#redux-middleware)
 - [NPM](#NPM)
 - [Webpack](#webpack)
+- [Security](#security)
 - [Accessibility](#accessibility)
 - [TDD](#tdd---test-driven-development)
 - [Testing (jest / enzyme / react-testing-library)](#testing---jest--enzyme--react-testing-library)
@@ -110,6 +111,13 @@ Webpack is a static module bundler for javascript applications. It bundles your 
 Notes on understanding NPM can be found here: 
 - https://github.com/Mark-Cooper-Janssen-Vooles/webpack_learnings
 
+---
+
+## Security 
+The frontend primarily deals with user interfaces and interactions, but it plays a significant role in protecting your application and user data.
+
+Important topics covered here are the OWASP top 10, penetration testing, and React security.
+- https://github.com/Mark-Cooper-Janssen-Vooles/frontendSecurity
 
 ---
 ## Accessibility
