@@ -116,7 +116,7 @@ Notes on understanding NPM can be found here:
 ## Security 
 The frontend primarily deals with user interfaces and interactions, but it plays a significant role in protecting your application and user data.
 
-Important topics covered here are the OWASP top 10, penetration testing, and React security.
+Important topics covered here are the OWASP top 10, penetration testing, and React specific security.
 - https://github.com/Mark-Cooper-Janssen-Vooles/frontendSecurity
 
 ---
